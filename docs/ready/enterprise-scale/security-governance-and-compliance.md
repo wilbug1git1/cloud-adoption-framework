@@ -180,6 +180,16 @@ You must maintain a healthy security posture as you adopt Azure. Besides visibil
 
 <!-- docsTest:ignore "and conditional access" -->
 
+## Azure Security Benchmarks
+
+The Azure Security Benchmarks include a collection of high-impact security recommendations you can use to help secure most of the services you use in Azure. You can think of these recommendations as "general" or "organizational" as they are applicable to most Azure services. The Enterprise Scale Landing Zone Recommendations have been audited for compliance to the Azure Security Benchmarks.  As business units request to deploy workloads to Azure, additional visibility into workloads is needed to achieve appropriate levels of governance, security, and compliance. The Azure Security Benchmarks resources below should be used while evaluating the new service to align to the ASB control framework.  
+
+When onboarding specific services, the following two resources should be used to align to the Azure Security Benchmarks.
+
+- [Enterprise Service Benchmarks](https://docs.microsoft.com/en-us/azure/security/benchmarks/overview)
+
+- [Azure Services Benchmarks](https://docs.microsoft.com/en-us/azure/security/benchmarks/security-baselines-overview)
+
 ## Service enablement framework
 
 As business units request to deploy workloads to Azure, you need additional visibility into a workload to determine how to achieve appropriate levels of governance, security, and compliance. When a new service is required, you need to allow it. The following table provides a framework to assess enterprise security readiness of Azure services:
