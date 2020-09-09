@@ -182,13 +182,12 @@ You must maintain a healthy security posture as you adopt Azure. Besides visibil
 
 ## Azure Security Benchmarks
 
-The Azure Security Benchmarks include a collection of high-impact security recommendations you can use to help secure most of the services you use in Azure. You can think of these recommendations as "general" or "organizational" as they are applicable to most Azure services. The Enterprise Scale Landing Zone Recommendations have been audited for compliance to the Azure Security Benchmarks.  As business units request to deploy workloads to Azure, additional visibility into workloads is needed to achieve appropriate levels of governance, security, and compliance. The Azure Security Benchmarks resources below should be used while evaluating the new service to align to the ASB control framework.  
+The Azure Security Benchmark includes a collection of high-impact security recommendations you can use to help secure most of the services you use in Azure. You can think of these recommendations as "general" or "organizational" as they are applicable to most Azure services. The Azure Security Benchmark recommendations are then customized for each Azure service, and this customized guidance is contained in service recommendations articles.
 
-When onboarding specific services, the following two resources should be used to align to the Azure Security Benchmarks.
+The Azure Security Benchmark documentation specifies security controls and service recommendations.
 
-- [Enterprise Service Benchmarks](https://docs.microsoft.com/en-us/azure/security/benchmarks/overview)
-
-- [Azure Services Benchmarks](https://docs.microsoft.com/en-us/azure/security/benchmarks/security-baselines-overview)
+- [Security Controls](https://docs.microsoft.com/en-us/azure/security/benchmarks/overview): The Azure Security Benchmark recommendations are categorized by security controls. Security controls represent high-level vendor-agnostic security requirements, such as network security and data protection. Each security control has a set of security recommendations and instructions that help you implement those recommendations.
+- [Service Recommendations](https://docs.microsoft.com/en-us/azure/security/benchmarks/security-baselines-overview): When available, benchmark recommendations for Azure services will include Azure Security Benchmark recommendations that are tailored specifically for that service.
 
 ## Service enablement framework
 
